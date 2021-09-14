@@ -194,7 +194,8 @@ input,
 select,
 textarea {
   color: #a2a2a2;
-  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  /* font-family: "Source Sans Pro", Helvetica, sans-serif; */
+  font-family: "IBM Plex Mono", monospace;
   font-size: 16pt;
   font-weight: 400;
   line-height: 1.75em;
@@ -2692,7 +2693,8 @@ input[type="button"]:disabled,
   justify-content: space-between;
   background-color: #1f1815;
   background-attachment: scroll, scroll;
-  background-image: url("images/overlay.png"), url("../../images/trying17.jpg");
+  background-image: url("images/overlay.png"),
+    url("../../images/background.jpg");
   background-position: top left, top left;
   background-repeat: repeat, no-repeat;
   background-size: auto, 150%;
